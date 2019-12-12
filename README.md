@@ -13,10 +13,9 @@ API.
 
 ## Instructions
 
-1. Fork and clone this repository.
-1. Change into the new directory.
+1. Create a new repo using `create-react-app`
 1. Fulfill the listed requirements.
-1. Make a pull request to submit your work.
+1. Make an issue to submit your work when you're finished!
 
 Please turn in your submission by the deadline on your cohort calendar.
 
