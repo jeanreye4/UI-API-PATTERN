@@ -5,19 +5,11 @@
 You're going to build out a common UI pattern in React and integrate it with an
 API.
 
-## Prerequisites
-
-- React Function and Class Components
-- State and Props
-- Component Lifecycle
-
 ## Instructions
 
 1. Create a new repo using `create-react-app`
 1. Fulfill the listed requirements.
 1. Make an issue to submit your work when you're finished!
-
-Please turn in your submission by the deadline on your cohort calendar.
 
 ## UI Pattern
 
