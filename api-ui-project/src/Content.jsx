@@ -2,14 +2,14 @@
 
 function Content() {
   return (
-      <div class="slideContainer">
-        <button class="back">BACK</button>
-        <div class="mario-container">
-          <div class="gallery-container">
-            <ul class="mario-album gallery js-gallery"></ul>
+      <div className="slideContainer">
+        <button className="back">BACK</button>
+        <div className="mario-container">
+          <div className="gallery-container">
+            <ul className="mario-album gallery js-gallery"></ul>
           </div>
         </div>
-        <button class="next">NEXT</button>
+        <button className="next">NEXT</button>
       </div>
   )
 }

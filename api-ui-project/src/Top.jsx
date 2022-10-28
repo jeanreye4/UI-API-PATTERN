@@ -1,9 +1,11 @@
+import img1 from "./Super-Mario-Logo.jpeg"
+
 function Top() {
   return (
     <>
     <h1>Mario Slideshow</h1>
-    <div class="Mario-logo">
-      <img src="Super-Mario-Logo.jpeg" alt ="MARIO LOGO" />
+    <div className="logo">
+      <img src={img1} alt ="MARIO LOGO" />
       </div>
       </>
   )
