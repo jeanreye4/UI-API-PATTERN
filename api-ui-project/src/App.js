@@ -21,19 +21,18 @@ function App() {
       });
   }, []);
 
-  if (!!mario) {
+  if (mario) {
     for (let i = 0; i < mario.amiibo.length; i++) {
       console.log(mario.amiibo[i].image);
       let htmlTemplate = `
           <li class="gallery__item js-gallery-item" style="background-image: url('${mario.amiibo[i].image}')">
           </li>
         `;
-        marioAlbum.insertAdjacentHTML("beforeend", htmlTemplate);
-      
+      marioAlbum.insertAdjacentHTML("beforeend", htmlTemplate);
+
       let currentSlide = 0;
       let slideWidth = 750;
       let delta = slideWidth;
-
 
       let transitionSlidePlus = () => {
         let jsGallery = document.querySelector(".js-gallery");
@@ -45,7 +44,6 @@ function App() {
           currentSlide = 1;
         }
       };
-      
 
       let transitionSlideMinus = () => {
         let jsGallery = document.querySelector(".js-gallery");
@@ -58,7 +56,6 @@ function App() {
         }
       };
 
-
       let nextButton = document.querySelector(".next");
       let backButton = document.querySelector(".back");
 
@@ -68,12 +65,12 @@ function App() {
   }
 
   // let videoHTML = `
-        //   <video width="400" controls>
-        //     <source src="./MARIO_GIF.mp4" type="video/mp4">
-        //   </video>
-        // `;
+  //   <video width="400" controls>
+  //     <source src="./MARIO_GIF.mp4" type="video/mp4">
+  //   </video>
+  // `;
 
-      // marioAlbum.insertAdjacentHTML("beforeend", videoHTML);
+  // marioAlbum.insertAdjacentHTML("beforeend", videoHTML);
 
   return (
     <div className="body">
